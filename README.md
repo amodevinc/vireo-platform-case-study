@@ -5,7 +5,7 @@
 
 ![Demo](docs/demo-hero.gif)
 
-A property discovery platform for the Belize real estate market — listings, parcel/subdivision mapping, agent attribution, and a buyer-qualification flow. Built and operated solo.
+A property discovery platform for the Belize real estate market — listings, parcel/subdivision mapping, agent attribution, and a buyer-qualification flow. A Vireo Technologies product: Vireo is co-founded by Alain and Rashaan Morris, and I'm the lead engineer, having written nearly all of the code.
 
 ---
 
@@ -15,7 +15,7 @@ Belize real estate runs on WhatsApp and Facebook groups. Prices are quoted on re
 
 The product bet: publish the price, name the person answering for each listing, and be explicit about what has and hasn't been verified. That last part is a legal constraint as much as a design one — the platform must not imply title verification it hasn't done.
 
-**Status:** live with real listing inventory sourced from a partner Century 21 agent. Pre-revenue — no transactions have closed through the platform.
+**Status:** live with real listing inventory sourced from a partner real-estate agent. Pre-revenue — no transactions have closed through the platform.
 
 ---
 
@@ -125,7 +125,6 @@ Four-step finder that branches on whether the buyer is local or purchasing from 
 
 ## Stack
 
-<!-- FILL: verify each row -->
 | Layer | Tech | Why |
 |---|---|---|
 | Frontend | TypeScript, Next.js | SSR for listing pages — this market's buyers arrive via search and social |
